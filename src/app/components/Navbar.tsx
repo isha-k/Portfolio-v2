@@ -18,11 +18,11 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav className="navbar block w-full max-w-screen px-4 py-4 mx-auto top-3 shadow lg:px-8 backdrop-blur-lg backdrop-saturate-150 z-[9999]">
+      <nav className="navbar fixed w-full max-w-screen px-4 py-4 mx-auto shadow lg:px-8 bg-transparent backdrop-blur-xs backdrop-saturate-150 z-[9999]">
         <div className="container flex flex-wrap items-center justify-between mx-auto text-slate-800">
           <Link
             href="/"
-            className="mr-4 block cursor-pointer py-1.5 text-purple-600 font-bold text-2xl"
+            className="mr-4 block cursor-pointer py-1.5 text-white font-bold text-2xl"
           >
             ISHA K
           </Link>

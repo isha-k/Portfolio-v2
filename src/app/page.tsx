@@ -1,13 +1,12 @@
-import Header from "./components/Header";
-import Navbar from "./components/Navbar";
+import Homepage from "../pages/Home";
 import Petals from "./components/Petals";
+
 
 export default function Home() {
   return (
     <div>
-      <Navbar/>
       <Petals/>
-      <Header/> 
+      <Homepage/> 
     </div>
 
   );
