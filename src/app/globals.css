@@ -191,34 +191,65 @@ html, body {
   width: auto;  
 }
 
-.fade-mask {
-  -webkit-mask-image: linear-gradient(to bottom, transparent, white 10%, white 80%, transparent);
-  mask-image: linear-gradient(to bottom, transparent, white 10%, white 80%, transparent);
-}
-
-.move-up {
-  position: relative;
-  top: -3vh; /* Adjust the value to control overlap */
-  z-index: 10; /* Ensure it's above other elements */
-}
-
-.fade-overlay {
-  position: relative;
-}
-
-.fade-overlay::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 200px; /* Adjust the height of the fade */
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #020e44 100%);
-  pointer-events: none;
-}
-
 .gradient-background {
   width: 100%;
   height: 100%; /* Adjust height as needed */
   background: linear-gradient(to bottom, #011f54 0%, #1456d0 100%);
+}
+
+/* global styles or FairyDust.module.css */
+.fairy-dust {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.8); /* Light white color */
+  border-radius: 50%;
+  animation: float 1.5s ease-in-out infinite, twinkle 1.5s infinite alternate;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0) scale(0.5);
+  }
+  100% {
+    transform: translate(150px, 150px) scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.container-text {
+  overflow: hidden;
+}
+
+.split {
+  font-size: 5vw;
+  margin: 0;
+  color: white;
+}
+
+.section-text {
+  padding-top: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.word {
+  display: inline-block; /* Ensure words stay together */
+  white-space: nowrap; /* Prevent words from breaking */
+}
+
+.space {
+  display: inline-block;
+  width: 0.27em; /* Adjust this value to control the size of the space */
 }

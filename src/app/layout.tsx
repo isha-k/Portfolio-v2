@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import SplashScreen from "./components/SplashScreen";
+import SnowflakeCursor from "./components/SnowflakeCursor";
 
 const oswald = Oswald({
   variable: "--font-oswald",
@@ -20,7 +21,7 @@ export default function RootLayout({
 }>) {
   const pathname = usePathname()
   const isHome = pathname === "/"
-  const [ isLoading, setIsLoading ] = useState(isHome)
+  const [ isLoading, setIsLoading ] = useState(false)
 
   return (
     <html lang="en">
@@ -31,6 +32,7 @@ export default function RootLayout({
           <SplashScreen finishLoading={() => setIsLoading(false)}/>
         ) : (
           <>
+            <SnowflakeCursor/>
             <Navbar/>
             {children}
           </>
