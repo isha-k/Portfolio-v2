@@ -22,9 +22,6 @@ export default function RootLayout({
   const isHome = pathname === "/"
   const [ isLoading, setIsLoading ] = useState(isHome)
 
-  useEffect (() => {
-    if (isLoading) return
-  },[isLoading])
   return (
     <html lang="en">
       <body

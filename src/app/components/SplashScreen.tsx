@@ -7,7 +7,7 @@ interface SplashScreenProps {
   finishLoading: () => void;
 }
 
-const images = ["/images/fox_1.png", "/images/fox_2.png", "/images/fox_3.png"];
+const images = ["/images/fox_2.png", "/images/fox_3.png", "/images/fox_1.png"];
 
 const SplashScreen: React.FC<SplashScreenProps> = ({ finishLoading }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -19,27 +19,27 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ finishLoading }) => {
 
       animationRef.current = anime.timeline({
         easing: "easeInOutQuad",
-        duration: 800,
+        duration: 400,
         complete: () => {
           if (currentIndex < images.length - 1) {
-            setTimeout(() => setCurrentIndex(currentIndex + 1), 400); // Move to next image
+            setTimeout(() => setCurrentIndex((prevIndex) => prevIndex + 1), 200);
           } else {
-            setTimeout(() => finishLoading(), 400); // End splash screen
+            setTimeout(() => finishLoading(), 200); // End splash screen
           }
-        },
+        }, 
       }) as AnimeTimelineInstance; // ✅ Explicitly typing this as an AnimeTimelineInstance
 
       animationRef.current
         .add({
           targets: "#splash-logo",
           opacity: [0, 1], // Fade in
-          duration: 800,
+          duration: 400,
         })
         .add({
           targets: "#splash-logo",
           opacity: [1, 0], // Fade out
-          duration: 800,
-          delay: 400, // Pause before fade-out
+          duration: 400,
+          delay: 200, // Pause before fade-out
         });
     };
 

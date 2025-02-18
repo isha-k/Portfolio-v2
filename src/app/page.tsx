@@ -1,4 +1,4 @@
-import Homepage from "../pages/Home";
+import Homepage from "../pages/Home/Home";
 import Petals from "./components/Petals";
 
 
