@@ -68,68 +68,355 @@ const MySkills = () => {
                 <div className="desktopContent">
                     <div className="desktopContentSection">
                         <span className="work_num text-2xl md:text-3xl">01</span>
-                        <h1 className="title text-4xl md:text-8xl">Shopify CMS</h1>
-                        <p className="project-content text-lg">I specialize in creating sleek, high-performing CMS stores with user-friendly designs and robust features</p>
+                        <h1 className="title text-4xl md:text-8xl">CMS</h1>
+                        <div className="mt-4 space-y-4 space-x-2 text-right">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                Shopify
+                            </div>
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                WordPress
+                            </div>
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                Webflow
+                            </div>
+                        </div>
                     </div>
                     <div className="desktopContentSection">
                         <span className="work_num text-2xl md:text-3xl">02</span>
-                        <h1 className="title text-4xl md:text-8xl">Green</h1>
-                        <p>Green is a color that is often associated with nature, growth, and harmony. It is a calming and relaxing color that can evoke feelings of balance, stability, and freshness. In color psychology, green is said to represent balance and stability, making it a popular choice for branding and marketing in the health and wellness industry. </p>
+                        <h1 className="title text-4xl md:text-8xl">Front end</h1>
+                        <div className="mt-4 space-y-4 space-x-2 text-right">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                React.js/Next.js
+                            </div>
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                Tailwind
+                            </div>
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                HTML
+                            </div>
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                CSS
+                            </div>
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                Javascript
+                            </div>
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                Typescript
+                            </div>
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                GSAP
+                            </div>
+                        </div>                    
                     </div>
                     <div className="desktopContentSection">
                         <span className="work_num text-2xl md:text-3xl">03</span>
-                        <h1 className="title text-4xl md:text-8xl">Pink</h1>
-                        <p>Pink is a color that is often associated with femininity, romance, and sweetness. It is a softer and more delicate shade of red that can evoke feelings of warmth, love, and nurturing.</p>
-                        <p>In the world of branding and marketing, pink is often used to target a female audience or to promote products that are associated with beauty, love, or romance.</p>
-                        <p>Pink is also used in the food industry, as it is associated with sweetness and desserts. Pink is often used in breast cancer awareness campaigns, as it has become the signature color of the movement. </p><p>Pink is also commonly used in baby showers and weddings, as it symbolizes love, innocence, and new beginnings.</p>
+                        <h1 className="title text-4xl md:text-8xl">Back end</h1>
+                        <div className="mt-4 space-y-4 space-x-2 text-right">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                SQL
+                            </div>
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                PHP
+                            </div>
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                Python
+                            </div>
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                Java
+                            </div>
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                C#
+                            </div>
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                Firebase
+                            </div>
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                RestAPIs
+                            </div>
+                        </div>                    
                     </div>
                     <div className="desktopContentSection">
                         <span className="work_num text-2xl md:text-3xl">04</span>
-                        <h1 className="title text-4xl md:text-8xl">Blue</h1>
-                        <p>Blue is a color that is often associated with calmness, trust, and reliability. It is a peaceful and serene color that can evoke feelings of stability, security, and professionalism. In color psychology, blue is said to represent loyalty and trust, making it a popular choice for branding and marketing in the finance and technology industries.</p>
+                        <h1 className="title text-4xl md:text-8xl">UI/UX</h1>
+                        <div className="mt-4 space-y-4 space-x-2 text-right">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                Figma
+                            </div>
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                Adobe
+                            </div>
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                Lucidchart
+                            </div>
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                Canva
+                            </div>
+                        </div>                    
                     </div>
-
+                    <div className="desktopContentSection">
+                        <span className="work_num text-2xl md:text-3xl">05</span>
+                        <h1 className="title text-4xl md:text-8xl">SEO</h1>
+                        <div className="mt-4 space-y-4 space-x-2 text-right">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                Google Analytics
+                            </div>
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                SEO/SEM
+                            </div>
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                Google Search Console
+                            </div>
+                        </div>                    
+                    </div>
+                    <div className="desktopContentSection">
+                        <span className="work_num text-2xl md:text-3xl">06</span>
+                        <h1 className="title text-4xl md:text-8xl">Devops</h1>
+                        <div className="mt-4 space-y-4 space-x-2 text-right">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                Github
+                            </div>
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                AWS
+                            </div>
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                Trello
+                            </div>
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                Rally
+                            </div>
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                                Jira
+                            </div>
+                        </div>                    
+                    </div>
                 </div>
             </div>
 
             <div className="right">
-
                 <div className="mobileContent">
-                    <div className="mobilePhoto red"></div>
+                    <div>
+                        <Image
+                            src="/images/CMS.webp"
+                            alt="CMS"
+                            height={1920}
+                            width={1080}
+                            className="mobilePhoto"
+                        />
+                    </div>
                     <span className="work_num text-2xl">01</span>
-                    <h1 className="title text-4xl md:text-8xl">Red</h1>
-                    <p className="text-white">I specialize in creating sleek, high-performing CMS stores with user-friendly designs and robust features</p>
-
-                    <div className="mobilePhoto green"></div>
+                    <h1 className="title text-4xl md:text-8xl">CMS</h1>
+                    <div className="mt-4 space-y-4 space-x-2 text-right">
+                    <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            Shopify
+                        </div>
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            WordPress
+                        </div>
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            Webflow
+                        </div>
+                    </div>
+                    <div>
+                        <Image
+                            src="/images/frontend.webp"
+                            alt="Frontend"
+                            height={1920}
+                            width={1080}
+                            className="mobilePhoto"
+                        />
+                    </div>                    
                     <span className="work_num">02</span>
-                    <h1 className="title text-4xl md:text-8xl">Green</h1>
-                    <p>Green is a color that is often associated with nature, growth, and harmony. It is a calming and relaxing color that can evoke feelings of balance, stability, and freshness. In color psychology, green is said to represent balance and stability, making it a popular choice for branding and marketing in the health and wellness industry. </p>
-
-                    <div className="mobilePhoto pink"></div>
+                    <h1 className="title text-4xl md:text-8xl">Frontend</h1>
+                    <div className="mt-4 space-y-4 space-x-2 text-right">
+                    <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            React.js/Next.js
+                        </div>
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            Tailwind
+                        </div>
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            HTML
+                        </div>
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            CSS
+                        </div>
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            Javascript
+                        </div>
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            Typescript
+                        </div>
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            GSAP
+                        </div>
+                    </div>  
+                    <div>
+                        <Image
+                            src="/images/backend.webp"
+                            alt="Backend"
+                            height={1920}
+                            width={1080}
+                            className="mobilePhoto"
+                        />
+                    </div>                    
                     <span className="work_num">03</span>
-                    <h1 className="title text-4xl md:text-8xl">Pink</h1>
-                    <p>Pink is a color that is often associated with femininity, romance, and sweetness. It is a softer and more delicate shade of red that can evoke feelings of warmth, love, and nurturing. In the world of branding and marketing, pink is often used to target a female audience or to promote products that are associated with beauty, love, or romance.</p>
-
-                    <div className="mobilePhoto blue"></div>
+                    <h1 className="title text-4xl md:text-8xl">Backend</h1>
+                    <div className="mt-4 space-y-4 space-x-2 text-right">
+                    <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            SQL
+                        </div>
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            PHP
+                        </div>
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            Python
+                        </div>
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            Java
+                        </div>
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            C#
+                        </div>
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            Firebase
+                        </div>
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            RestAPIs
+                        </div>
+                    </div> 
+                    <div>
+                        <Image
+                            src="/images/UiUx.webp"
+                            alt="UI-UX"
+                            height={1920}
+                            width={1080}
+                            className="mobilePhoto"
+                        />
+                    </div>                    
                     <span className="work_num">04</span>
-                    <h1 className="title text-4xl md:text-8xl">Blue</h1>
-                    <p>Blue is a color that is often associated with calmness, trust, and reliability. It is a peaceful and serene color that can evoke feelings of stability, security, and professionalism. In color psychology, blue is said to represent loyalty and trust, making it a popular choice for branding and marketing in the finance and technology industries.</p>
+                    <h1 className="title text-4xl md:text-8xl">UI-UX</h1>
+                    <div className="mt-4 space-y-4 space-x-2 text-right">
+                    <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            Figma
+                        </div>
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            Adobe
+                        </div>
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            Lucidchart
+                        </div>
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            Canva
+                        </div>
+                    </div>        
+                    <div>
+                        <Image
+                            src="/images/seo.webp"
+                            alt="SEO"
+                            height={1920}
+                            width={1080}
+                            className="mobilePhoto"
+                        />
+                    </div>                    
+                    <span className="work_num">05</span>
+                    <h1 className="title text-4xl md:text-8xl">SEO</h1>
+                    <div className="mt-4 space-y-4 space-x-2 text-right">
+                    <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            Google Analytics
+                        </div>
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            SEO/SEM
+                        </div>
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            Google Search Console
+                        </div>
+                    </div>           
+                    <div>
+                        <Image
+                            src="/images/devops.webp"
+                            alt="DevOps"
+                            height={1920}
+                            width={1080}
+                            className="mobilePhoto"
+                        />
+                    </div>                    
+                    <span className="work_num">06</span>
+                    <h1 className="title text-4xl md:text-8xl">DevOps</h1>
+                    <div className="mt-4 space-y-4 space-x-2 text-right">
+                    <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            Github
+                        </div>
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            AWS
+                        </div>
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            Trello
+                        </div>
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            Rally
+                        </div>
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            Jira
+                        </div>
+                    </div>   
                 </div>
 
 
                 <div className="desktopPhotos">
                     <div>
                         <Image
-                            src="/images/shopify.webp"
+                            src="/images/CMS.webp"
                             alt="Shopify CMS"
                             height={1920}
                             width={1080}
                             className="desktopPhoto"
                         />
                     </div>
-                    <div className="desktopPhoto green"></div>
-                    <div className="desktopPhoto pink"></div>
-                    <div className="desktopPhoto blue"></div>
+                    <div className="desktopPhoto green">
+                        <Image
+                            src="/images/backend.webp"
+                            alt="Backend"
+                            height={1920}
+                            width={1080}
+                            className="desktopPhoto"
+                        />
+                    </div>
+                    <div className="desktopPhoto pink">
+                        <Image
+                            src="/images/frontend.webp"
+                            alt="Frontend"
+                            height={1920}
+                            width={1080}
+                            className="desktopPhoto"
+                        />
+                    </div>
+                    <div className="desktopPhoto blue">
+                        <Image
+                            src="/images/UiUx.webp"
+                            alt="UI-UX"
+                            height={1920}
+                            width={1080}
+                            className="desktopPhoto"
+                        />
+                    </div>
+                    <div className="desktopPhoto blue">
+                        <Image
+                            src="/images/seo.webp"
+                            alt="SEO"
+                            height={1920}
+                            width={1080}
+                            className="desktopPhoto"
+                        />
+                    </div>
+                    <div className="desktopPhoto blue">
+                        <Image
+                            src="/images/devops.webp"
+                            alt="DevOps"
+                            height={1920}
+                            width={1080}
+                            className="desktopPhoto"
+                        />
+                    </div>
                 </div>
 
             </div>
