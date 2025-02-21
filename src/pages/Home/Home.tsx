@@ -4,6 +4,7 @@ import Scroller from './Scroller'
 import About from './About'
 import Projects from './Projects'
 import ContactMe from './ContactMe'
+import MySkills from './MySkills'
 
 
 const Home = () => {
@@ -11,7 +12,8 @@ const Home = () => {
     <div>
         <Hero/>
         <About/>
-        <Projects/>
+        <MySkills/>
+        {/* <Projects/> */}
         <ContactMe/>
         {/* <Scroller/> */}
     </div>
