@@ -7,7 +7,7 @@ interface SnowflakeCursorOptions {
 
 const SnowflakeCursor: React.FC<SnowflakeCursorOptions> = ({ element }) => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
-  const particles = useRef<any[]>([]);
+  const particles = useRef<Particle[]>([]);
   const canvImages = useRef<HTMLCanvasElement[]>([]); 
   const animationFrame = useRef<number | null>(null);
   const prefersReducedMotion = useRef<MediaQueryList | null>(null);

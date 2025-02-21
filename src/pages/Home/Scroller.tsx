@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Scroller = () => {
   return (
@@ -6,61 +7,169 @@ const Scroller = () => {
         <div className="scroller">
             <ul>
                 <li>
-                    <img src="./images/html.svg" alt="HTML" />
+                    <Image 
+                        src="./images/html.svg" 
+                        alt="HTML" 
+                        width={1920} 
+                        height={1080} 
+                        style={{ height: '40px', width: 'auto' }} 
+                    />
                 </li>
                 <li>
-                    <img src="./images/css.svg" alt="CSS" />
+                    <Image 
+                        src="./images/css.svg" 
+                        alt="CSS" 
+                        width={1920} 
+                        height={1080} 
+                        style={{ height: '40px', width: 'auto' }} 
+                    />
                 </li>
                 <li>
-                    <img src="./images/java.svg" alt="Java" />
+                    <Image 
+                        src="./images/java.svg" 
+                        alt="Java" 
+                        width={1920} 
+                        height={1080} 
+                        style={{ height: '40px', width: 'auto' }} 
+                    />
                 </li>
                 <li>
-                    <img src="./images/python.svg" alt="Python" />
+                    <Image 
+                        src="./images/python.svg" 
+                        alt="Python" 
+                        width={1920} 
+                        height={1080} 
+                        style={{ height: '40px', width: 'auto' }} 
+                    />
                 </li>
                 <li>
-                    <img src="./images/js.svg" alt="Javascript" />
+                    <Image 
+                        src="./images/js.svg" 
+                        alt="Javascript" 
+                        width={1920} 
+                        height={1080} 
+                        style={{ height: '40px', width: 'auto' }} 
+                    />
                 </li>
                 <li>
-                    <img src="./images/nextjs.svg" alt="NextJs" />
+                    <Image 
+                        src="./images/nextjs.svg" 
+                        alt="NextJs" 
+                        width={1920} 
+                        height={1080} 
+                        style={{ height: '40px', width: 'auto' }} 
+                    />
                 </li>
                 <li>
-                    <img src="./images/react.svg" alt="React" />
+                    <Image 
+                        src="./images/react.svg" 
+                        alt="React" 
+                        width={1920} 
+                        height={1080} 
+                        style={{ height: '40px', width: 'auto' }} 
+                    />
                 </li>
                 <li>
-                    <img src="./images/typescript.svg" alt="Typescript" />
+                    <Image 
+                        src="./images/typescript.svg" 
+                        alt="Typescript" 
+                        width={1920} 
+                        height={1080} 
+                        style={{ height: '40px', width: 'auto' }} 
+                    />
                 </li>
                 <li>
-                    <img src="./images/shopify.svg" alt="Shopify" />
+                    <Image 
+                        src="./images/shopify.svg" 
+                        alt="Shopify" 
+                        width={1920} 
+                        height={1080} 
+                        style={{ height: '40px', width: 'auto' }} 
+                    />
                 </li>
             </ul>
 
             <ul aria-hidden="true">
                 <li>
-                    <img src="./images/html.svg" alt="HTML" />
+                    <Image 
+                        src="./images/html.svg" 
+                        alt="HTML" 
+                        width={1920} 
+                        height={1080} 
+                        style={{ height: '40px', width: 'auto' }} 
+                    />
                 </li>
                 <li>
-                    <img src="./images/css.svg" alt="CSS" />
+                    <Image 
+                        src="./images/css.svg" 
+                        alt="CSS" 
+                        width={1920} 
+                        height={1080} 
+                        style={{ height: '40px', width: 'auto' }} 
+                    />
                 </li>
                 <li>
-                    <img src="./images/java.svg" alt="Java" />
+                    <Image 
+                        src="./images/java.svg" 
+                        alt="Java" 
+                        width={1920} 
+                        height={1080} 
+                        style={{ height: '40px', width: 'auto' }} 
+                    />
                 </li>
                 <li>
-                    <img src="./images/python.svg" alt="Python" />
+                    <Image 
+                        src="./images/python.svg" 
+                        alt="Python" 
+                        width={1920} 
+                        height={1080} 
+                        style={{ height: '40px', width: 'auto' }} 
+                    />
                 </li>
                 <li>
-                    <img src="./images/js.svg" alt="Javascript" />
+                    <Image 
+                        src="./images/js.svg" 
+                        alt="Javascript" 
+                        width={1920} 
+                        height={1080} 
+                        style={{ height: '40px', width: 'auto' }} 
+                    />
                 </li>
                 <li>
-                    <img src="./images/nextjs.svg" alt="NextJs" />
+                    <Image 
+                        src="./images/nextjs.svg" 
+                        alt="NextJs" 
+                        width={1920} 
+                        height={1080} 
+                        style={{ height: '40px', width: 'auto' }} 
+                    />
                 </li>
                 <li>
-                    <img src="./images/react.svg" alt="React" />
+                    <Image 
+                        src="./images/react.svg" 
+                        alt="React" 
+                        width={1920} 
+                        height={1080} 
+                        style={{ height: '40px', width: 'auto' }} 
+                    />
                 </li>
                 <li>
-                    <img src="./images/typescript.svg" alt="Typescript" />
+                    <Image 
+                        src="./images/typescript.svg" 
+                        alt="Typescript" 
+                        width={1920} 
+                        height={1080} 
+                        style={{ height: '40px', width: 'auto' }} 
+                    />
                 </li>
                 <li>
-                    <img src="./images/shopify.svg" alt="Shopify" />
+                    <Image 
+                        src="./images/shopify.svg" 
+                        alt="Shopify" 
+                        width={1920} 
+                        height={1080} 
+                        style={{ height: '40px', width: 'auto' }} 
+                    />
                 </li>
             </ul>
         </div>

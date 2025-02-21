@@ -1,12 +1,17 @@
 "use client";
 import { gsap } from 'gsap';
-import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import SplitType from 'split-type';
 import { useRef, useEffect } from 'react';
+import { League_Gothic } from 'next/font/google';
+
+const leagueGothic = League_Gothic({
+  subsets: ["latin"],
+})
+
 
 // Register GSAP plugins
-gsap.registerPlugin(useGSAP, ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
   const textRef = useRef<HTMLHeadingElement>(null);
@@ -53,7 +58,7 @@ const About = () => {
   
           <section className='section-text'>
             <div className="container-text">
-              <h1 ref={textRef} className='split flex justify-center items-center'>If you dream it, I can create it</h1>
+              <h1 ref={textRef} className={`split flex justify-center items-center text-4xl md:text-7xl lg:text-8xl ${leagueGothic.className}`}>IF YOU DREAM IT, I CAN CREATE IT</h1>
             </div>
           </section>
         </div>

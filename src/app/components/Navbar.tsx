@@ -32,6 +32,7 @@ export default function Navbar() {
               className="relative ml-auto h-6 max-h-[40px] w-6 max-w-[40px] select-none rounded-lg text-center align-middle text-xs font-medium uppercase text-inherit transition-all hover:bg-transparent focus:bg-transparent active:bg-transparent disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
               onClick={toggleMobileMenu}
               type="button"
+              aria-label="toggle menu"
             >
               <span className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                 <svg
@@ -53,20 +54,21 @@ export default function Navbar() {
 
           {/* Mobile Menu */}
           <div
-            className={`fixed top-0 left-0 min-h-screen w-64 bg-slate-100 shadow-lg transform transition-transform duration-300 ease-in-out ${
+            className={`fixed top-0 left-0 min-h-screen w-64 bg-[#fcf4f6] shadow-lg transform transition-transform duration-300 ease-in-out ${
               isMobileMenuOpen ? "translate-x-0" : "-translate-x-full"
             } lg:hidden z-50`}
           >
             <div className="flex flex-row items-center border-b pb-4">
               <Link
                 href="/"
-                className="cursor-pointer text-purple-600 font-bold text-xl pt-4 ps-4"
+                className="cursor-pointer text-[#ea638c] font-bold text-xl pt-4 ps-4"
               >
                 ISHA K
               </Link>
               <button
                 onClick={toggleMobileMenu}
-                className="absolute top-4 right-4 text-slate-600 hover:text-purple-500"
+                className="absolute top-4 right-4 text-slate-600 hover:text-[#ea638c]"
+                aria-label="toggle menu"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

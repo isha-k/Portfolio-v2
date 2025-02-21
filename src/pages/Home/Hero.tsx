@@ -8,7 +8,6 @@ const loveLight = Love_Light({
   subsets: ["latin"],
 })
 
-
 const Hero = () => {
   const [isMounted, setIsMounted] = useState(false);
 
