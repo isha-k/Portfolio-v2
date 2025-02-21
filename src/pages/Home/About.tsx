@@ -42,7 +42,7 @@ const About = () => {
 
   return (
     <div className='gradient-background'>
-      <div className="flex min-h-screen items-start justify-center p-20">
+      <div className="flex items-start justify-center p-20">
         <div className="w-max flex flex-col items-center text-center">
           {/* Typing effect */}
           <div className="w-max">

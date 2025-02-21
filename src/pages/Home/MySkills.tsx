@@ -59,27 +59,33 @@ const MySkills = () => {
 
     }, []);
   return (
-    <div>
-        <div className="spacer"></div>
-        <div className="gallery">
+<div className="relative bg-[url(/images/skillsBg.webp)] bg-cover bg-center">
+    <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#000000] opacity-100"></div>
+    <div className="absolute inset-0 bg-gradient-to-b from-[#343a7e] to-transparent opacity-100"></div>
+    
+    <div className="gallery">
             <div className="left">
                 <div className="desktopContent">
                     <div className="desktopContentSection">
-                        <h1>Red</h1>
-                        <p>Red is a color often associated with strong emotions such as passion, love, and anger. It's a bold and attention-grabbing color that can evoke feelings of excitement, warmth, and energy.</p>
+                        <span className="work_num text-2xl md:text-3xl">01</span>
+                        <h1 className="title text-4xl md:text-8xl">Shopify CMS</h1>
+                        <p className="project-content text-lg">I specialize in creating sleek, high-performing CMS stores with user-friendly designs and robust features</p>
                     </div>
                     <div className="desktopContentSection">
-                        <h1>Green</h1>
+                        <span className="work_num text-2xl md:text-3xl">02</span>
+                        <h1 className="title text-4xl md:text-8xl">Green</h1>
                         <p>Green is a color that is often associated with nature, growth, and harmony. It is a calming and relaxing color that can evoke feelings of balance, stability, and freshness. In color psychology, green is said to represent balance and stability, making it a popular choice for branding and marketing in the health and wellness industry. </p>
                     </div>
                     <div className="desktopContentSection">
-                        <h1>Pink</h1>
+                        <span className="work_num text-2xl md:text-3xl">03</span>
+                        <h1 className="title text-4xl md:text-8xl">Pink</h1>
                         <p>Pink is a color that is often associated with femininity, romance, and sweetness. It is a softer and more delicate shade of red that can evoke feelings of warmth, love, and nurturing.</p>
                         <p>In the world of branding and marketing, pink is often used to target a female audience or to promote products that are associated with beauty, love, or romance.</p>
                         <p>Pink is also used in the food industry, as it is associated with sweetness and desserts. Pink is often used in breast cancer awareness campaigns, as it has become the signature color of the movement. </p><p>Pink is also commonly used in baby showers and weddings, as it symbolizes love, innocence, and new beginnings.</p>
                     </div>
                     <div className="desktopContentSection">
-                        <h1>Blue</h1>
+                        <span className="work_num text-2xl md:text-3xl">04</span>
+                        <h1 className="title text-4xl md:text-8xl">Blue</h1>
                         <p>Blue is a color that is often associated with calmness, trust, and reliability. It is a peaceful and serene color that can evoke feelings of stability, security, and professionalism. In color psychology, blue is said to represent loyalty and trust, making it a popular choice for branding and marketing in the finance and technology industries.</p>
                     </div>
 
@@ -90,25 +96,37 @@ const MySkills = () => {
 
                 <div className="mobileContent">
                     <div className="mobilePhoto red"></div>
-                    <h1>Red</h1>
-                    <p>Red is a color often associated with strong emotions such as passion, love, and anger. It's a bold and attention-grabbing color that can evoke feelings of excitement, warmth, and energy.</p>
+                    <span className="work_num text-2xl">01</span>
+                    <h1 className="title text-4xl md:text-8xl">Red</h1>
+                    <p className="text-white">I specialize in creating sleek, high-performing CMS stores with user-friendly designs and robust features</p>
 
                     <div className="mobilePhoto green"></div>
-                    <h1>Green</h1>
+                    <span className="work_num">02</span>
+                    <h1 className="title text-4xl md:text-8xl">Green</h1>
                     <p>Green is a color that is often associated with nature, growth, and harmony. It is a calming and relaxing color that can evoke feelings of balance, stability, and freshness. In color psychology, green is said to represent balance and stability, making it a popular choice for branding and marketing in the health and wellness industry. </p>
 
                     <div className="mobilePhoto pink"></div>
-                    <h1>Pink</h1>
+                    <span className="work_num">03</span>
+                    <h1 className="title text-4xl md:text-8xl">Pink</h1>
                     <p>Pink is a color that is often associated with femininity, romance, and sweetness. It is a softer and more delicate shade of red that can evoke feelings of warmth, love, and nurturing. In the world of branding and marketing, pink is often used to target a female audience or to promote products that are associated with beauty, love, or romance.</p>
 
                     <div className="mobilePhoto blue"></div>
-                    <h1>Blue</h1>
+                    <span className="work_num">04</span>
+                    <h1 className="title text-4xl md:text-8xl">Blue</h1>
                     <p>Blue is a color that is often associated with calmness, trust, and reliability. It is a peaceful and serene color that can evoke feelings of stability, security, and professionalism. In color psychology, blue is said to represent loyalty and trust, making it a popular choice for branding and marketing in the finance and technology industries.</p>
                 </div>
 
 
                 <div className="desktopPhotos">
-                    <div className="desktopPhoto red"></div>
+                    <div>
+                        <Image
+                            src="/images/shopify.webp"
+                            alt="Shopify CMS"
+                            height={1920}
+                            width={1080}
+                            className="desktopPhoto"
+                        />
+                    </div>
                     <div className="desktopPhoto green"></div>
                     <div className="desktopPhoto pink"></div>
                     <div className="desktopPhoto blue"></div>
@@ -116,10 +134,6 @@ const MySkills = () => {
 
             </div>
         </div>
-
-        <div className="spacer"></div>
-        <div className="spacer"></div>
-        <div className="spacer"></div>
     </div>
   )
 }
