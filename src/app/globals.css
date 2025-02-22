@@ -158,14 +158,45 @@ html, body {
 
 .scroller {
   font-size: 15px;
-  padding-block: 8px;
-  border-block: 1px solid;
+  padding-block: 16px;
+  border-block: 1px solid rgba(255, 255, 255, 0.1);
   overflow: hidden;
   user-select: none;
-
-  --gap: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  --gap: 40px;
   display: flex;
   gap: var(--gap);
+  position: relative;
+}
+
+/* Gradient mask for fading edges */
+.scroller::before,
+.scroller::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100px; /* Adjust the width of the fade area */
+  z-index: 2;
+  pointer-events: none; /* Ensure the mask doesn't block interactions */
+}
+
+.scroller::before {
+  left: 0;
+  background: linear-gradient(
+    to right,
+    rgba(53, 48, 144, 1), /* Match the background color */
+    rgba(1, 31, 84, 0) /* Transparent */
+  );
+}
+
+.scroller::after {
+  right: 0;
+  background: linear-gradient(
+    to left,
+    rgba(53, 48, 144, 1), /* Match the background color */
+    rgba(1, 31, 84, 0) /* Transparent */
+  );
 }
 
 .scroller ul {
@@ -173,11 +204,17 @@ html, body {
   flex-shrink: 0;
   min-width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   gap: var(--gap);
-
   animation: scroll 20s linear infinite;
+}
+
+.scroller ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
 }
 
 @keyframes scroll {

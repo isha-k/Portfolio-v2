@@ -2,179 +2,58 @@ import React from 'react'
 import Image from 'next/image'
 
 const Scroller = () => {
-  return (
-    <div>
+    return (
+      <div className='bg-[#353090] bg-opacity-80 z-30 py-4'>
         <div className="scroller">
-            <ul>
-                <li>
-                    <Image 
-                        src="./images/html.svg" 
-                        alt="HTML" 
-                        width={1920} 
-                        height={1080} 
-                        style={{ height: '40px', width: 'auto' }} 
-                    />
-                </li>
-                <li>
-                    <Image 
-                        src="./images/css.svg" 
-                        alt="CSS" 
-                        width={1920} 
-                        height={1080} 
-                        style={{ height: '40px', width: 'auto' }} 
-                    />
-                </li>
-                <li>
-                    <Image 
-                        src="./images/java.svg" 
-                        alt="Java" 
-                        width={1920} 
-                        height={1080} 
-                        style={{ height: '40px', width: 'auto' }} 
-                    />
-                </li>
-                <li>
-                    <Image 
-                        src="./images/python.svg" 
-                        alt="Python" 
-                        width={1920} 
-                        height={1080} 
-                        style={{ height: '40px', width: 'auto' }} 
-                    />
-                </li>
-                <li>
-                    <Image 
-                        src="./images/js.svg" 
-                        alt="Javascript" 
-                        width={1920} 
-                        height={1080} 
-                        style={{ height: '40px', width: 'auto' }} 
-                    />
-                </li>
-                <li>
-                    <Image 
-                        src="./images/nextjs.svg" 
-                        alt="NextJs" 
-                        width={1920} 
-                        height={1080} 
-                        style={{ height: '40px', width: 'auto' }} 
-                    />
-                </li>
-                <li>
-                    <Image 
-                        src="./images/react.svg" 
-                        alt="React" 
-                        width={1920} 
-                        height={1080} 
-                        style={{ height: '40px', width: 'auto' }} 
-                    />
-                </li>
-                <li>
-                    <Image 
-                        src="./images/typescript.svg" 
-                        alt="Typescript" 
-                        width={1920} 
-                        height={1080} 
-                        style={{ height: '40px', width: 'auto' }} 
-                    />
-                </li>
-                <li>
-                    <Image 
-                        src="./images/shopify.svg" 
-                        alt="Shopify" 
-                        width={1920} 
-                        height={1080} 
-                        style={{ height: '40px', width: 'auto' }} 
-                    />
-                </li>
-            </ul>
-
-            <ul aria-hidden="true">
-                <li>
-                    <Image 
-                        src="./images/html.svg" 
-                        alt="HTML" 
-                        width={1920} 
-                        height={1080} 
-                        style={{ height: '40px', width: 'auto' }} 
-                    />
-                </li>
-                <li>
-                    <Image 
-                        src="./images/css.svg" 
-                        alt="CSS" 
-                        width={1920} 
-                        height={1080} 
-                        style={{ height: '40px', width: 'auto' }} 
-                    />
-                </li>
-                <li>
-                    <Image 
-                        src="./images/java.svg" 
-                        alt="Java" 
-                        width={1920} 
-                        height={1080} 
-                        style={{ height: '40px', width: 'auto' }} 
-                    />
-                </li>
-                <li>
-                    <Image 
-                        src="./images/python.svg" 
-                        alt="Python" 
-                        width={1920} 
-                        height={1080} 
-                        style={{ height: '40px', width: 'auto' }} 
-                    />
-                </li>
-                <li>
-                    <Image 
-                        src="./images/js.svg" 
-                        alt="Javascript" 
-                        width={1920} 
-                        height={1080} 
-                        style={{ height: '40px', width: 'auto' }} 
-                    />
-                </li>
-                <li>
-                    <Image 
-                        src="./images/nextjs.svg" 
-                        alt="NextJs" 
-                        width={1920} 
-                        height={1080} 
-                        style={{ height: '40px', width: 'auto' }} 
-                    />
-                </li>
-                <li>
-                    <Image 
-                        src="./images/react.svg" 
-                        alt="React" 
-                        width={1920} 
-                        height={1080} 
-                        style={{ height: '40px', width: 'auto' }} 
-                    />
-                </li>
-                <li>
-                    <Image 
-                        src="./images/typescript.svg" 
-                        alt="Typescript" 
-                        width={1920} 
-                        height={1080} 
-                        style={{ height: '40px', width: 'auto' }} 
-                    />
-                </li>
-                <li>
-                    <Image 
-                        src="./images/shopify.svg" 
-                        alt="Shopify" 
-                        width={1920} 
-                        height={1080} 
-                        style={{ height: '40px', width: 'auto' }} 
-                    />
-                </li>
-            </ul>
+          <ul>
+            {[
+              "./images/html.svg",
+              "./images/css.svg",
+              "./images/java.svg",
+              "./images/python.svg",
+              "./images/js.svg",
+              "./images/nextjs.svg",
+              "./images/react.svg",
+              "./images/typescript.svg",
+              "./images/shopify.svg",
+            ].map((src, index) => (
+              <li key={index}>
+                <Image
+                  src={src}
+                  alt={src.replace("./images/", "").replace(".svg", "")}
+                  width={100}
+                  height={100}
+                  className="h-10 w-auto"
+                />
+              </li>
+            ))}
+          </ul>
+          <ul aria-hidden="true">
+            {[
+              "./images/html.svg",
+              "./images/css.svg",
+              "./images/java.svg",
+              "./images/python.svg",
+              "./images/js.svg",
+              "./images/nextjs.svg",
+              "./images/react.svg",
+              "./images/typescript.svg",
+              "./images/shopify.svg",
+            ].map((src, index) => (
+              <li key={index}>
+                <Image
+                  src={src}
+                  alt={src.replace("./images/", "").replace(".svg", "")}
+                  width={100}
+                  height={100}
+                  className="h-10 w-auto"
+                />
+              </li>
+            ))}
+          </ul>
         </div>
-    </div>
-  )
-}
-
-export default Scroller
+      </div>
+    );
+  };
+  
+  export default Scroller;
