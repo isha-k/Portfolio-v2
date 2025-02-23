@@ -200,7 +200,7 @@ const MySkills = () => {
                             alt="CMS"
                             height={1920}
                             width={1080}
-                            className="mobilePhoto"
+                            className="mobilePhoto object-cover"
                         />
                     </div>
                     <span className="work_num text-2xl">01</span>
@@ -222,7 +222,7 @@ const MySkills = () => {
                             alt="Frontend"
                             height={1920}
                             width={1080}
-                            className="mobilePhoto"
+                            className="mobilePhoto object-cover"
                         />
                     </div>                    
                     <span className="work_num">02</span>
@@ -256,7 +256,7 @@ const MySkills = () => {
                             alt="Backend"
                             height={1920}
                             width={1080}
-                            className="mobilePhoto"
+                            className="mobilePhoto object-cover"
                         />
                     </div>                    
                     <span className="work_num">03</span>
@@ -290,7 +290,7 @@ const MySkills = () => {
                             alt="UI-UX"
                             height={1920}
                             width={1080}
-                            className="mobilePhoto"
+                            className="mobilePhoto object-cover"
                         />
                     </div>                    
                     <span className="work_num">04</span>
@@ -315,7 +315,7 @@ const MySkills = () => {
                             alt="SEO"
                             height={1920}
                             width={1080}
-                            className="mobilePhoto"
+                            className="mobilePhoto object-cover"
                         />
                     </div>                    
                     <span className="work_num">05</span>
@@ -337,7 +337,7 @@ const MySkills = () => {
                             alt="DevOps"
                             height={1920}
                             width={1080}
-                            className="mobilePhoto"
+                            className="mobilePhoto object-cover"
                         />
                     </div>                    
                     <span className="work_num">06</span>
