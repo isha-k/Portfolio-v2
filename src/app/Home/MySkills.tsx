@@ -70,13 +70,13 @@ const MySkills = () => {
                         <span className="work_num text-2xl md:text-3xl">01</span>
                         <h1 className="title text-4xl md:text-8xl">CMS</h1>
                         <div className="mt-4 space-y-4 space-x-2 text-right">
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 Shopify
                             </div>
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 WordPress
                             </div>
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 Webflow
                             </div>
                         </div>
@@ -88,22 +88,22 @@ const MySkills = () => {
                             <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
                                 React.js/Next.js
                             </div>
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 Tailwind
                             </div>
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 HTML
                             </div>
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 CSS
                             </div>
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 Javascript
                             </div>
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 Typescript
                             </div>
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 GSAP
                             </div>
                         </div>                    
@@ -112,25 +112,25 @@ const MySkills = () => {
                         <span className="work_num text-2xl md:text-3xl">03</span>
                         <h1 className="title text-4xl md:text-8xl">Back end</h1>
                         <div className="mt-4 space-y-4 space-x-2 text-right">
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 SQL
                             </div>
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 PHP
                             </div>
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 Python
                             </div>
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 Java
                             </div>
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 C#
                             </div>
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 Firebase
                             </div>
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 RestAPIs
                             </div>
                         </div>                    
@@ -139,16 +139,16 @@ const MySkills = () => {
                         <span className="work_num text-2xl md:text-3xl">04</span>
                         <h1 className="title text-4xl md:text-8xl">UI/UX</h1>
                         <div className="mt-4 space-y-4 space-x-2 text-right">
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 Figma
                             </div>
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 Adobe
                             </div>
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 Lucidchart
                             </div>
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 Canva
                             </div>
                         </div>                    
@@ -157,13 +157,13 @@ const MySkills = () => {
                         <span className="work_num text-2xl md:text-3xl">05</span>
                         <h1 className="title text-4xl md:text-8xl">SEO</h1>
                         <div className="mt-4 space-y-4 space-x-2 text-right">
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 Google Analytics
                             </div>
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 SEO/SEM
                             </div>
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 Google Search Console
                             </div>
                         </div>                    
@@ -172,19 +172,19 @@ const MySkills = () => {
                         <span className="work_num text-2xl md:text-3xl">06</span>
                         <h1 className="title text-4xl md:text-8xl">Devops</h1>
                         <div className="mt-4 space-y-4 space-x-2 text-right">
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 Github
                             </div>
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 AWS
                             </div>
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 Trello
                             </div>
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 Rally
                             </div>
-                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                            <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                                 Jira
                             </div>
                         </div>                    
@@ -206,13 +206,13 @@ const MySkills = () => {
                     <span className="work_num text-2xl">01</span>
                     <h1 className="title text-4xl md:text-8xl">CMS</h1>
                     <div className="mt-4 space-y-4 space-x-2 text-right">
-                    <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                    <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             Shopify
                         </div>
-                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             WordPress
                         </div>
-                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             Webflow
                         </div>
                     </div>
@@ -228,25 +228,25 @@ const MySkills = () => {
                     <span className="work_num">02</span>
                     <h1 className="title text-4xl md:text-8xl">Frontend</h1>
                     <div className="mt-4 space-y-4 space-x-2 text-right">
-                    <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                    <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             React.js/Next.js
                         </div>
-                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             Tailwind
                         </div>
-                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             HTML
                         </div>
-                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             CSS
                         </div>
-                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             Javascript
                         </div>
-                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             Typescript
                         </div>
-                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             GSAP
                         </div>
                     </div>  
@@ -262,25 +262,25 @@ const MySkills = () => {
                     <span className="work_num">03</span>
                     <h1 className="title text-4xl md:text-8xl">Backend</h1>
                     <div className="mt-4 space-y-4 space-x-2 text-right">
-                    <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                    <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             SQL
                         </div>
-                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             PHP
                         </div>
-                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             Python
                         </div>
-                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             Java
                         </div>
-                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             C#
                         </div>
-                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             Firebase
                         </div>
-                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             RestAPIs
                         </div>
                     </div> 
@@ -296,16 +296,16 @@ const MySkills = () => {
                     <span className="work_num">04</span>
                     <h1 className="title text-4xl md:text-8xl">UI-UX</h1>
                     <div className="mt-4 space-y-4 space-x-2 text-right">
-                    <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                    <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             Figma
                         </div>
-                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             Adobe
                         </div>
-                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             Lucidchart
                         </div>
-                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             Canva
                         </div>
                     </div>        
@@ -321,13 +321,13 @@ const MySkills = () => {
                     <span className="work_num">05</span>
                     <h1 className="title text-4xl md:text-8xl">SEO</h1>
                     <div className="mt-4 space-y-4 space-x-2 text-right">
-                    <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                    <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             Google Analytics
                         </div>
-                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             SEO/SEM
                         </div>
-                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             Google Search Console
                         </div>
                     </div>           
@@ -343,19 +343,19 @@ const MySkills = () => {
                     <span className="work_num">06</span>
                     <h1 className="title text-4xl md:text-8xl">DevOps</h1>
                     <div className="mt-4 space-y-4 space-x-2 text-right">
-                    <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                    <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             Github
                         </div>
-                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             AWS
                         </div>
-                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             Trello
                         </div>
-                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             Rally
                         </div>
-                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium">
+                        <div className="rounded-full bg-gray-200 p-3 inline-block text-lg font-medium text-gray-800">
                             Jira
                         </div>
                     </div>   
