@@ -451,7 +451,7 @@ html, body {
 .title {
   text-align: right;
   text-transform: uppercase;
-  color: white;
+  color: black;
 }
 
 .title .stroke {
