@@ -40,7 +40,7 @@ const ContactForm = () => {
       const response = await emailjs.send(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID as string, // Service ID
         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID as string, // Template ID
-        formData,
+        messageData,
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY as string // Public Key
       );
 

@@ -13,8 +13,15 @@ const oswald = Oswald({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://ishakportfolio.com/"),
   title: "Isha K Portfolio website",
   description: "Come and view my awesome portfolio website!",
+  openGraph: {
+    title: "Isha K Portfolio",
+    description: "Come and view my awesome portfolio website!",
+    url: "https://ishakportfolio.com/",
+    siteName: "Isha K Portfolio",
+  },
 };
 
 export default function RootLayout({

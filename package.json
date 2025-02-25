@@ -6,13 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@gsap/react": "^2.1.2",
     "animejs": "^3.2.2",
     "gsap": "^3.12.7",
+    "lib-utils-ts": "^0.0.0-test",
     "next": "15.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

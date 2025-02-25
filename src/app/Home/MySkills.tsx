@@ -15,7 +15,7 @@ const MySkills = () => {
         gsap.set(photos, { yPercent: 101 });
 
         // create
-        let mm = gsap.matchMedia();
+        const mm = gsap.matchMedia();
 
         // add a media query. When it matches, the associated function will run
         mm.add("(min-width: 600px)", () => {
@@ -35,8 +35,8 @@ const MySkills = () => {
         //reaches 80% of window height
         details.forEach((detail, index)=> {
 
-            let headline = detail.querySelector("h1")
-            let animation = gsap.timeline()
+            const headline = detail.querySelector("h1")
+            const animation = gsap.timeline()
             .to(photos[index], {yPercent:0})
             .set(allPhotos[index], {autoAlpha:0})
             ScrollTrigger.create({
